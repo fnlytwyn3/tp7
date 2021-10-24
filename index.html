@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+		<!-- meta tags and title -->
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Best Chocolate Chip Cookies</title>
+
+		<!-- external and on-page CSS goes here -->
+		<link rel="stylesheet" href="styles.css" media="all">
+		<style>
+		
+		</style>
+
+		<!-- external and on-page JavaScript goes here -->
+		<script type="text/javascript" src="scripts.js" defer=""></script>
+		<script>
+     document.getElementById("Ingredients").ontoggle = function() {myFunction()};
+     document.getElementById("equipment").ontoggle = function() {myFunction()};
+     document.getElementById("directions").ontoggle = function() {myFunction()};
+     document.getElementById("nutrition").ontoggle = function() {myFunction()};
+      
+function myFunction() {
+  alert("The ontoggle event occured");
+}
+      
+
+function myFunction2() {
+  document.body.style.backgroundImage = "url('https://images.unsplash.com/photo-1499636136210-6f4ee915583e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=464&q=80')";
+}
+		</script>
+
+	</head>
+
+	<body onload ="myFunction()">
+
+    
+    <div id="Batter">
+ <h1 id="H1">Best Chocolate Chip Cookies</h1>
+</div>
+
+    
+      
+<details id="ingredients">
+  <summary> Ingredients </summary>
+  <ul>
+    
+  </ul>
+</details>
+      
+
+        
+<details id="equipment">
+  <summary>Kitchen Equipment</summary>
+  <ul>
+    
+  </ul>
+</details>
+
+      
+<details id="directions">
+  <summary>Directions</summary>
+  <ol>
+    
+  </ol>
+</details>
+
+  <details id="nutrition">
+    <summary>Nutrition Facts</summary>
+  <ul>
+
+  </ul>
+</details>
+
+    <button type="button" onclick="myFunction2()">Set image</button>
+
+<p class="copyright">(Original recipe at <a href="https://www.allrecipes.com/recipe/10813/best-chocolate-chip-cookies/">AllRecipes.com</a>.) Photo by <a href="https://unsplash.com/@pamslens?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Pam Menegakis</a> on <a href="https://unsplash.com/s/photos/cookie-image?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
+
+	
+
+</body>
+</html>
